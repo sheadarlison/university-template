@@ -152,7 +152,8 @@ body {
   font-weight: 100; }
 
 p {
-  color: #ddd; }
+  color: #ddd; 
+  margin:0 !important;}
 
 .container {
   width: 100vw;
@@ -212,10 +213,16 @@ ul.bxslider li {
 .nameSlider {
   position: absolute;
   right: 0vw;
-  top: 16vh;
+  top: 10vh;
   width: 53vw;
-  padding: 1vh 1vw 1vh 1vw;
-  text-align: center;
+  height: 22vh;
+  padding-top: 1.5vh;
+  padding-left: 1.5vw;
+  text-align: left;
   background: #263162;
-  font-size: 1.9vw;
-  line-height: 1.8; }
+  font-size: 4vw;
+  }
+
+  .nameslide p{
+    font-family: 'Montserrat', sans-serif; font-weight:700;
+  }
